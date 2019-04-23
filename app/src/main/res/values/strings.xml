@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final Half Task</string>
+    <string name="butlihat">View</string>
+    <string name="Linear">Linear Layout</string>
+    <string name="Relative">Relative Layout</string>
+    <string name="Constraint">Constraint Layout</string>
+</resources>
