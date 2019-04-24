@@ -4,4 +4,6 @@
     <string name="Linear">Linear Layout</string>
     <string name="Relative">Relative Layout</string>
     <string name="Constraint">Constraint Layout</string>
+
+    <string name="data_received">Data Diterima</string>
 </resources>

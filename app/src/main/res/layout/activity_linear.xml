@@ -15,28 +15,32 @@
         <Button
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
-                android:text="Button 1"
+                android:text="My Profile"
+                android:id="@+id/prof"
                 android:background="@color/colorAccent"
                 android:textColor="#ffffff"
                 android:layout_height="70dp"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
-                android:text="Button 2"
+                android:text="Profile with camera"
+                android:id="@+id/cam"
                 android:background="@color/colorAccent"
                 android:textColor="#ffffff"
                 android:layout_height="70dp"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
-                android:text="Button 3"
+                android:text="Move With Data"
+                android:id="@+id/mowida"
                 android:background="@color/colorAccent"
                 android:textColor="#ffffff"
                 android:layout_height="70dp"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
-                android:text="Button 4"
+                android:text="No Action"
+                android:id="@+id/noact"
                 android:background="@color/colorAccent"
                 android:textColor="#ffffff"
                 android:layout_height="70dp"/>

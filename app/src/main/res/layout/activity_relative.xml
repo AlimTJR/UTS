@@ -7,7 +7,7 @@
             android:layout_width="match_parent"
             android:id="@+id/RelLay"
             android:layout_height="match_parent">
-        
+
         <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
@@ -83,6 +83,7 @@
                             android:layout_height="wrap_content"/>
                 </LinearLayout>
             </LinearLayout>
+
         </LinearLayout>
 
         <ImageView
@@ -91,5 +92,14 @@
                 android:layout_height="86dp" android:id="@+id/imageView5" android:layout_weight="1"
                 android:layout_alignParentEnd="true" android:layout_marginEnd="294dp" android:layout_marginTop="158dp"
                 android:layout_alignParentTop="true"/>
+        <TextView
+                android:id="@+id/dataterima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_received"
+                android:textSize="10pt"
+                android:layout_marginBottom="700dp"
+                android:layout_marginTop="408dp" android:layout_alignParentTop="true"/>
     </RelativeLayout>
+
 </LinearLayout>
