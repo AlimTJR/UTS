@@ -10,9 +10,9 @@ class Relative : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_relative)
 
-        val nama=intent.getStringExtra("Username")
-        val password=intent.getIntExtra("password",0)
-        dataterima.setText("User Name ="+ nama + ",\nPassword ="+password)
+        val nama=intent.getStringExtra("Nama")
+        val identitas=intent.getStringExtra("Identitas")
+        dataterima.setText(nama+"\n"+identitas)
     }
 
 }

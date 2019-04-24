@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         }
         RL.setOnClickListener {
             val pindah = Intent(this, Relative::class.java)
+            pindah.putExtra("Nama","M Alim Tajri")
+            pindah.putExtra("Identitas","Mahasiswa Universitas PGRI Semarang")
             startActivity(pindah)
         }
         CL.setOnClickListener {
